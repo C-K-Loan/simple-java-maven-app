@@ -10,9 +10,8 @@ pipeline {
       steps {
         sh '''echo yo dude I am a pipeline bro
 echo ok some diagnostics inc
-echo PATH =${PATH}
 echo ls
-mvn clean'''
+mvn build'''
       }
     }
 
