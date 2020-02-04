@@ -10,8 +10,7 @@ pipeline {
       steps {
         sh '''echo yo dude I am a pipeline bro
 echo ok some diagnostics inc
-echo ls
-mvn build'''
+echo ls'''
       }
     }
 
